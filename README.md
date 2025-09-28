@@ -10,7 +10,6 @@ A React application that demonstrates:
 ## 🚀 Setup Instructions
 
 1. Clone the repository:
-   ```bash
    git clone <your-repo-url>
    cd my-app
 Install dependencies:

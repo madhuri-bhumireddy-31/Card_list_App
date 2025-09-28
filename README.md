@@ -10,8 +10,7 @@ A React application that demonstrates:
 ## Setup Instructions
 
 1. Clone the repository:
-   
-   bash
+   ```bash
    git clone <your-repo-url>
    cd my-app
 Install dependencies:
@@ -65,3 +64,7 @@ Ensures that the first few visible cards (e.g., Card 1, Card 5) are rendered int
 
 Run tests:
 npm test
+
+
+
+

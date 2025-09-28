@@ -13,9 +13,8 @@ A React application that demonstrates:
    ```bash
    git clone <your-repo-url>
    cd my-app
-Install dependencies:
-  ```bash
-npm install
+  Install dependencies:
+  npm install
 Start the development server:
   ```bash
 npm start

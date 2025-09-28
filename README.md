@@ -55,8 +55,8 @@ Ensures click scrolls list back to top.
 Ensures that the first few visible cards (e.g., Card 1, Card 5) are rendered into the DOM.
 
 Run tests:
-    ```bush
-    npm test
+```bush
+npm test
 
 
 

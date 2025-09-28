@@ -16,12 +16,12 @@ A React application that demonstrates:
 2. Install dependencies:
    ```bash
      npm install
-Start the development server:
+3. Start the development server:
   ```bash
-npm start
-Run the test suite:
+      npm start
+4. Run the test suite:
   ```bash
-npm test
+   npm test
 
 ##Summary of Approach**
 The application is split into three main components:

@@ -7,26 +7,25 @@ A React application that demonstrates:
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
+   
+   bash
    git clone <your-repo-url>
    cd my-app
 Install dependencies:
-
-
+bash
 npm install
 Start the development server:
-
-
+bash
 npm start
 Run the test suite:
-
-
+bash
 npm test
 
 
-**🛠️ Summary of Approach**
+### Summary of Approach
 The application is split into three main components:
 
 Card.jsx → Renders individual card UI.

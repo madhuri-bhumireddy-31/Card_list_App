@@ -39,7 +39,7 @@ Implemented using react-window’s FixedSizeList.
 Instead of rendering all 1000+ cards in the DOM, only the visible items + a small buffer are rendered at a time.
 This ensures smooth performance and avoids unnecessary re-rendering.
 
-## Testing
+# Testing
 Testing is done using Jest + React Testing Library.
 CSS imports are mocked using identity-obj-proxy in jest.config.js.
 

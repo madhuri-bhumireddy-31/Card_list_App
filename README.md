@@ -18,10 +18,10 @@ A React application that demonstrates:
    npm install
 3. Start the development server:
    ```bash
-  npm start
+   npm start
 4. Run the test suite:
    ```bash
-  npm test
+   npm test
 
 ##Summary of Approach**
 The application is split into three main components:

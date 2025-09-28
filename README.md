@@ -17,10 +17,10 @@ A React application that demonstrates:
    ```bash
    npm install
 3. Start the development server:
-  ```bash
+   ```bash
   npm start
 4. Run the test suite:
-  ```bash
+   ```bash
   npm test
 
 ##Summary of Approach**

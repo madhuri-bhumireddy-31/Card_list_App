@@ -11,7 +11,7 @@ A React application that demonstrates:
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone MY-APP
    cd my-app
 2. Install dependencies:
    ```bash
@@ -23,7 +23,7 @@ A React application that demonstrates:
    ```bash
    npm test
 
-##Summary of Approach**
+# Summary of Approach
 The application is split into three main components:
 
 Card.jsx → Renders individual card UI.
@@ -34,7 +34,7 @@ ScrollToTopButton.jsx → A floating button that becomes visible when the user s
 
 Styling is handled in a central style.css file for responsive layout across all devices.
 
-**Virtual Scrolling Implementation**
+## Virtual Scrolling Implementation
 Implemented using react-window’s FixedSizeList.
 
 Instead of rendering all 1000+ cards in the DOM, only the visible items + a small buffer are rendered at a time.

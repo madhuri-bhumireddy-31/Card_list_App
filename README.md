@@ -14,17 +14,16 @@ A React application that demonstrates:
    git clone <your-repo-url>
    cd my-app
 Install dependencies:
-bash
+  ```bash
 npm install
 Start the development server:
-bash
+  ```bash
 npm start
 Run the test suite:
-bash
+  ```bash
 npm test
 
-
-### Summary of Approach
+##Summary of Approach**
 The application is split into three main components:
 
 Card.jsx → Renders individual card UI.

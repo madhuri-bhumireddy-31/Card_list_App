@@ -7,28 +7,23 @@ A React application that demonstrates:
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
    ```bash
    git clone <your-repo-url>
    cd my-app
-Install dependencies:
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the development server:
+  ```bash
+  npm start
+4. Run the test suite:
+  ```bash
+  npm test
 
-bash
-Copy code
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-Run the test suite:
-
-bash
-Copy code
-npm test
-🛠️ Summary of Approach
+##Summary of Approach**
 The application is split into three main components:
 
 Card.jsx → Renders individual card UI.
@@ -39,36 +34,24 @@ ScrollToTopButton.jsx → A floating button that becomes visible when the user s
 
 Styling is handled in a central style.css file for responsive layout across all devices.
 
-📜 Virtual Scrolling Implementation
+**Virtual Scrolling Implementation**
 Implemented using react-window’s FixedSizeList.
 
 Instead of rendering all 1000+ cards in the DOM, only the visible items + a small buffer are rendered at a time.
 
 This ensures smooth performance and avoids unnecessary re-rendering.
 
-Example:
-
-jsx
-Copy code
-<List
-  height={600}
-  itemCount={items.length}
-  itemSize={120}
-  width="100%"
->
-  {Row}
-</List>
-🧪 Testing
+**Testing**
 Testing is done using Jest + React Testing Library.
 
 CSS imports are mocked using identity-obj-proxy in jest.config.js.
 
-✅ Tests included:
+**Tests included:**
 Card Rendering
 
 Ensures title & description are displayed correctly.
 
-ScrollToTop Button
+ScrollToTop Buttn
 
 Ensures button only appears after 300px scroll.
 
@@ -79,9 +62,8 @@ Virtualized List Rendering
 Ensures that the first few visible cards (e.g., Card 1, Card 5) are rendered into the DOM.
 
 Run tests:
-
-bash
-Copy code
 npm test
-yaml
-Copy code
+
+
+
+
